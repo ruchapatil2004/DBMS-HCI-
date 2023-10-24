@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <script src="./app.js"></script>
+
+</head>
+<body>
+    <header class="header" id="navigation-menu">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo"><img src="logo.jpg" alt=""></a>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#room" class="nav-link">Rooms</a></li>
+                    <li><a href="#restaurant" class="nav-link">Restaurant</a></li>
+                    <li><a href="#gallary" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#admin" class="nav-link">Admin</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="home" id="home">
+      <div class="head_container">
+          <div class="box">
+              <div class="text">
+                  <h1 class="white-text-with-black-border">Namaste.Welcome</h1>
+                  <p class="white-text-with-black-border">Welcome to our Indian haven, where tradition meets modernity, and the soul of the country finds a home. As you step into our hotel, you are not just welcomed; you are embraced by the vibrant colors, the aromatic spices, and the rich heritage that make India truly incredible. Come, let us take you on an enchanting voyage through the heart and soul of India. Welcome to our hotel, where you'll discover the true essence of this magnificent land.</p>
+                  <button>MORE INFO</button>
+              </div>
+          </div>
+          <div class="image">
+              <img src="home1.jpg" class="slide" id="mainImage"></div>
+          <div class="image_item">
+              <img src="home1.jpg" alt="" class="slide active" onclick="img('home1.jpg')">
+              <img src="home2.jpg" alt="" class="slide" onclick="img('home2.jpg')">
+              <img src="home3.jpg" alt="" class="slide" onclick="img('home3.jpg')">
+              <img src="home4.jpg" alt="" class="slide" onclick="img('home4.jpg')">
+          </div>
+      </div>
+  </section>
+  <form action="/" method="post">
+    <section class="book">
+        <div class="container flex">
+            <div class="input grid">
+                <div class="box">
+                    <label for="Check_in">Check-in:</label>
+                    <input type="text" name="Check_in" placeholder="Check-in Date">
+                </div>
+                <div class="box">
+                    <label for="Check_out">Check-out:</label>
+                    <input type="text" name="Check_out" placeholder="Check-out Date">
+                </div>
+                <div class="box">
+                    <label for="Adults">Adults:</label> <br>
+                    <input type="number" name="Adults" placeholder="0">
+                </div>
+                <div class="box">
+                    <label for="Children">Children:</label> <br>
+                    <input type="number" name="Children" placeholder="0">
+                </div>
+            </div>
+            <div class="search">
+                <button class="search-button" type="submit">BOOK NOW</button>
+            </div>
+        </div>
+    </section>
+</form>
+
+
+    <section class="about top" id="about">
+        <div class="container flex">
+            <div class="left">
+              <div class="img">
+                <img src="a1.jpg" alt="" class="image1">
+                <img src="a2.jpg" alt="" class="image2">
+              </div>
+            </div>
+            <div class="right">
+              <div class="heading">
+                <h5>RAISING COMFOMRT TO THE HIGHEST LEVEL</h5>
+                <h2>Welcome to Hotel Royal</h2>
+                <p>Welcome to our Indian haven, where tradition meets modernity, and the soul of the country finds a home. As you step into our hotel, you are not just welcomed; you are embraced by the vibrant colors, the aromatic spices, and the rich heritage that make India truly incredible.</p>
+                <p>Our commitment to hospitality is as warm as the Indian sun, and our devotion to your comfort is as timeless as our ancient traditions. From the moment you arrive, you'll be captivated by the sights, sounds, and flavors of our diverse nation.Savor delectable Indian cuisine, experience the unmatched warmth of our staff, and allow the cultural tapestry of India to envelop you. Whether you're here to explore our ancient history or to unwind in opulent surroundings, your journey begins with us.</p>
+                <p>Come, let us take you on an enchanting voyage through the heart and soul of India. Welcome to our hotel, where you'll discover the true essence of this magnificent land.</p>
+                <button class="btn1">READ MORE</button>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section class="room top" id="room">
+        <div class="container">
+            <div class="heading_top flex1">
+              <div class="heading">
+                <h5>RAISING COMFORT TO THE HIGHEST LEVEL</h5>
+                <h2>Rooms Rs. Suites</h2>
+              </div>
+              <div class="button">
+                <button class="btn1">VIEW ALL</button>
+              </div>
+            </div>
+      
+            <div class="content grid">
+              <div class="box">
+                <div class="img">
+                  <img src="r1.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h3>Superior Soble Rooms</h3>
+                  <p> <span>Rs.</span>2000 <span>/per night</span> </p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="img">
+                  <img src="r2.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h3>Superior Soble Rooms</h3>
+                  <p> <span>Rs.</span>5000 <span>/per night</span> </p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="img">
+                  <img src="r3.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h3>Superior Soble Rooms</h3>
+                  <p> <span>Rs.</span>8000 <span>/per night</span> </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    <section class="restaurant top" id="restaurant">
+        <div class="container flex">
+            <div class="left">
+              <img src="re.jpg" alt="">
+            </div>
+            <div class="right">
+              <div class="text">
+                <h2>Our Restaurant</h2>
+                <p>Taste the beauty and essence of Indian culture.</p>
+                <a href="./order.html" class="btn1">Make an Order</a>
+              </div>
+              <div class="accordionWrapper">
+                <div class="accordionItem open">
+                  <h2 class="accordionIHeading" style="color:black;">Maharashtrian Thali</h2>
+                  <div class="accordionItemContent">
+                    <p>Indulge in the rich and vibrant flavors of Maharashtra with our Maharashtrian Thali. Experience a delightful assortment of traditional dishes that showcase the essence of this diverse Indian cuisine.</p>
+                  </div>
+                </div>
+                <div class="accordionItem close">
+                  <h2 class="accordionIHeading" style="color:black;">Punjabi Thali</h2>
+                  <div class="accordionItemContent">
+                    <p>Savor the robust and spicy flavors of Punjab with our Punjabi Thali, a culinary journey that brings together a delectable mix of Punjabi specialties. Enjoy an authentic Punjabi feast that's sure to tickle your taste buds.</p>
+                  </div>
+                </div>
+                <div class="accordionItem close">
+                  <h2 class="accordionIHeading" style="color:black;">Rajasthani Thali</h2>
+                  <div class="accordionItemContent">
+                    <p>Experience the rich and royal heritage of Rajasthan through our Rajasthani Thali, a vibrant medley of traditional dishes that offer a burst of colors and flavors. Indulge in a royal dining experience that takes your palate on an unforgettable culinary adventure.</p>
+                  </div>
+                </div>
+                <div class="accordionItem close">
+                  <h2 class="accordionIHeading" style="color:black;">South Indian Thali</h2>
+                  <div class="accordionItemContent">
+                    <p>Embark on a culinary journey to South India with our South Indian Thali, a delightful spread of aromatic curries, crispy dosas, fluffy idlis, and an array of chutneys. Immerse yourself in the authentic tastes of this region that will tantalize your taste buds.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <div class="admin-login-container">
+      <h2>Admin Login</h2>
+      <form id="admin-login-form">
+          <label for="admin-id">Admin ID:</label>
+          <input type="text" id="admin-id" name="admin-id" required>
+
+          <label for="admin-password">Password:</label>
+          <input type="password" id="admin-password" name="admin-password" required>
+
+          <button type="submit" id="admin-login-button">Login</button>
+      </form>
+      <p id="admin-login-message" class="hidden">Invalid admin ID or password.</p>
+    </div>
+    <footer>
+        <div class="container grid top">
+            <div class="box">
+                <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/48/000000/external-hotel-hotel-services-and-city-elements-flatart-icons-flat-flatarticons-1.png" alt="">
+                <p>Hotel Royal the grand entrance to the different world of Indian Culture.</p>
+                <p>Accepted payment methods</p>
+                <div class="payment grid">
+                    <img src="https://img.icons8.com/color/48/000000/visa.png" alt="">
+                    <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="">
+                    <img src="https://img.icons8.com/color-glass/48/000000/paypal.png" alt="">
+                    <img src="https://img.icons8.com/fluency/48/000000/amex.png" alt="">
+                </div>
+            </div>
+            <div class="box">
+                <h3>Recent News</h3>
+                <ul>
+                    <li>Our Maharaja Rajwada is just for you.</li>
+                    <li>Chill and Escape in Our Natural Shelters</li>
+                    <li>September in Royal Hotel</li>
+                    <li>Live Music Concerts at Hotel Royal</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>For Customers</h3>
+                <ul>
+                    <li>About Hotel Royal</li>
+                    <li>Customer Care/Help</li>
+                    <li>Corporate Accounts</li>
+                    <li>Financial Information</li>
+                    <li>Terms & Conditions</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Hotel Royal, Pimpri, Pune, Maharashtra.</li>
+                    <li><i class="far fa-envelope"></i> hotelroyalpimpri@gmail.com</li>
+                    <li><i class="far fa-phone-alt"></i> 123 456 7898</li>
+                    <li><i class="far fa-comments"></i> 24/7 Customer Services</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>

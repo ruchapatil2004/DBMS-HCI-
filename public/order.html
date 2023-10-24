@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order.css">
+    <title>Make an Order</title>
+</head>
+<body>
+    <header>
+        <h1>Place Your Order</h1>
+    </header>
+    <form action="/order" method="post" id="orderForm">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="order">Select Order:</label>
+            <select id="order" name="order" required>
+                <option value="Maharashtrian Thali">Maharashtrian Thali</option>
+                <option value="Punjabi Thali">Punjabi Thali</option>
+                <option value="Rajasthani Thali">Rajasthani Thali</option>
+                <option value="South Indian Thali">South Indian Thali</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="price">Select Price:</label>
+            <select id="price" name="price" required>
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value="300">300</option>
+                <option value="400">400</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="cancel">Do you want to cancel order (YES or NO):</label>
+            <input type="text" id="cancel" name="cancel" required>
+        </div>
+
+        <button type="submit" class="order">Order</button>
+        <button class="cancel-order" data-order-name="OrderName">Cancel Order</button>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
